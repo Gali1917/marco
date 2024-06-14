@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  background-color: lightblue;
+
+}
+header{
+  background-color: white;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 12px -4px black;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.title-body{
+  color: LightSalmon;
+  text-align: center;
+  font-size: 40px;
+}
+.content{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+h2 {
+  color: Red;
+  text-align: center;
+  font-size: 32px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 520px;
+  padding: 8px;
+  box-shadow: 0 0 12px -4px black, inset 0 0 12px -4px white; 
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.article-perfil{
+  display: flex;
+  gap: 48px;
+  justify-items: center;
+  justify-content: center;
+  padding: 0 48px 60px;
+}
+.img-container{
+  height: 300px;
+}
+.img-container img{
+  height: 100%;
+  border-radius: 24px;
+  box-shadow: 0 0 12px -4px black, inset 0 0 12px -4px white; 
+}
+p {
+  font-family: arial;
+  font-size: 20px;
+  text-align: justify;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+.article-video{
+  margin-bottom: 60px;
+}
+.iframe-container{
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  height: calc(60vw * 9 / 16);
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0 0 12px -4px black, inset 0 0 12px 0px white; 
+  overflow: hidden;
+  padding: 8px;
+  margin-bottom: 28px;
+}
+.iframe-container iframe{
+  width: 100%;
+  border-radius: 16px;
+
+}
+.p-video{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding-top: 24px;
+  text-align: center;
+  box-shadow: 0 0 20px 4px black;
+}
+.redes{
+  display: flex;
+  padding-top: 12px;
+  gap: 18px;
+  justify-content: center;
+  justify-items: center;
+}
+.instagram p{
+  font-size: 16px;
+}
+.instagram svg{
+  background-color: white;
+  border-radius: 16px;
+  width: 60px;
+  padding: 2px;
+}
+.facebook p{
+  font-size: 16px;
+}
+.facebook svg{
+  background-color: white;
+  border-radius: 16px;
+  width: 60px;
+}
